@@ -129,4 +129,4 @@ and get the new code, and then we can go and refresh the page and the changes wi
 But this isn't exactly the most way to test development, but it is a nice way to now and again push to the server so people can test it out and you can just make sure everything
 is working off of your machine.
 
-Now the whole Continuous Integration and Continuous Deployment things can get pretty complex. So, for example, we could have an environment to do testing and then and environment to deploy to. Then you might want to push to the test server every night and make sure your changes are good, and then once a week push to the production server   
+Now the whole Continuous Integration and Continuous Deployment things can get pretty complex. So, for example, we could have an environment to do testing and then and environment to deploy to. Then you might want to push to the test server every night and make sure your changes are good, and then once a week push to the production server.   

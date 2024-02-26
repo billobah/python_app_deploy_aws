@@ -122,4 +122,11 @@ configurations as default and create the production environment.
 Once the app is running in AWS, go again to the Services and find *CodePipeline*. This Service can allow us testing and deployments.
 But the only thing we are interested in here is taking our code from Github and getting it on AWS.
 
-So, we are going to create a pipeline. Connect from AWS to you Github account and chooses the appropriate repository containing the code.   
+So, we are going to create a pipeline. Connect from AWS to you Github account and chooses the appropriate repository containing the code.
+Fill the pipeline options. From now, when we will change something in this app locally and push it to Github, it is going automatically to refresh the pipeline
+and get the new code, and then we can go and refresh the page and the changes will be there.
+
+But this isn't exactly the most way to test development, but it is a nice way to now and again push to the server so people can test it out and you can just make sure everything
+is working off of your machine.
+
+Now the whole Continuous Integration and Continuous Deployment things can get pretty complex. So, for example, we could have an environment to do testing and then and environment to deploy to. Then you might want to push to the test server every night and make sure your changes are good, and then once a week push to the production server   
